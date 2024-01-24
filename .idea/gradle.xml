@@ -3,11 +3,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-8.5" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/kafka-basics" />
+            <option value="$PROJECT_DIR$/kafka-opensearch-consumer" />
+            <option value="$PROJECT_DIR$/kafka-wikimedia-producer" />
           </set>
         </option>
       </GradleProjectSettings>
